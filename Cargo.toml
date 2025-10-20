@@ -1,0 +1,11 @@
+[package]
+name = "obj_viewer"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 3
+debug = false
+
+[dependencies]
+minifb = "0.27"
